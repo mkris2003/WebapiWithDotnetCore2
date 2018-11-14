@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AppserviceTesterDotnetCore2.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Value")]
     public class ValuesController : Controller
     {
         // GET api/values
@@ -20,7 +20,7 @@ namespace AppserviceTesterDotnetCore2.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "Hari Om";
         }
 
         // POST api/values
