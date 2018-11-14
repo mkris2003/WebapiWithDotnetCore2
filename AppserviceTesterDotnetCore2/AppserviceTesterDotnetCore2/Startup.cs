@@ -11,7 +11,7 @@ using Microsoft.Extensions.Options;
 
 namespace AppserviceTesterDotnetCore2
 {
-    public class Startup
+    public class Startup 
     {
         public Startup(IConfiguration configuration)
         {
